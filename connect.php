@@ -3,6 +3,7 @@ $servername='localhost';
 $username="root";
 $password="";
 
+// connecting to database
 try
 {
 	$con=new PDO("mysql:host=$servername;dbname=research",$username,$password);
